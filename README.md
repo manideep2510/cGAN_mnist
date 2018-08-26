@@ -1,4 +1,4 @@
-# MNIST_cGAN
+# cGAN_MNIST
 Generation of MNIST like numbers through conditional GANs
 
 ## About
