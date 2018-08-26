@@ -1,4 +1,4 @@
-# ***Yet to upload the code. Stay tuned!***
+## ***Yet to upload the code. Stay tuned!***
 
 # cGAN_MNIST
 Generation of MNIST like digits using [Conditional Generative Adversarial Nets](https://arxiv.org/pdf/1411.1784.pdf)
