@@ -33,11 +33,11 @@ $ python cgan_mnist.py
 
 Generator try to learn the probability distribution of the training data and generate outputs which resemble the training data. Discriminator on the other hand discriminator takes the generated output from the generator and it predict whether the generated output is from the training data or not. 
 
-The discriminator will try to tell that the generated output is not from trainng data distribution and the generator will try to fool the discriminator by generating realistic outputs close to input data distribution.
+The discriminator will try to tell that the generated outputs are not from trainng data distribution and the generator will try to fool the discriminator by generating nearly realistic outputs close to input data distribution.
 
 The [meaning](https://dictionary.cambridge.org/dictionary/english/adversarial) of the term adveserial means "opposing or disagreeing with each other"
 
-Here the generator and discriminator are disagreeing with each other by generator trying to fool the discriminator and the discriminator trying to discriminate the generator.
+Here the generator and discriminator are disagreeing with each other as generator is trying to fool the discriminator and the discriminator trying to discriminate the generator.
 
 The generator tries to generate outputs similar to training data so the generator tries to decrease it's cost but the discriminator will try to tell that the generated data is not from the input distribution, hence the discriminator tries to increase it's cost. This is why the generator and discriminator are said to be in a *two-player minimax game*.
 
@@ -46,6 +46,8 @@ This is the loss function of Generative Adversarial Networks,
 <p align="center">
     <img src="https://github.com/manideep2510/cGAN_mnist/blob/master/writeup_images/cost.png" width="640"\>
 </p>
+
+Here the input of generator is `m` dimensional gaussian noise and the output is a `n` dimensional vector which is close to the input probability distribution.
 
 ### Now the Conditional Generative Adversarial Networks...
 
