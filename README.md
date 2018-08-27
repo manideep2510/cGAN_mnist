@@ -27,7 +27,7 @@ $ python cgan_mnist.py
 
 ## Let's understand what are Conditional GANs!
 
-### What are Generative Adversarial Networks?
+### Firstly, what are Generative Adversarial Networks?
 
 [Generative Adversarial Networks](https://arxiv.org/abs/1406.2661) or in short GANs are a type of generative models which can generate data which resembles the training data by learning the probability distribution of the training data through two-player minimax game between two networks namely Generator and Discriminator.
 
@@ -46,6 +46,10 @@ This is the loss function of Generative Adversarial Networks,
 <p align="center">
     <img src="https://github.com/manideep2510/cGAN_mnist/blob/master/writeup_images/cost.png" width="640"\>
 </p>
+
+### Now the Conditional Generative Adversarial Networks...
+
+[Conditional Generative Adversarial Nets](https://arxiv.org/pdf/1411.1784.pdf) are the conditional version of generative adversarial nets, which can be constructed by simply feeding the data, y, we wish to condition on to both the generator and discriminator. 
 
 ## References
 
