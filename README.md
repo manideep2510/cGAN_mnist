@@ -16,7 +16,7 @@ This code is implemented using [Keras](https://keras.io/) and [Tensorflow](https
 
 ## Usage
 
-Clone the repository, change your present working directory to the cloned directory, Now create a now folder in this directory named `generated` to save the generated digits after every sampled interval and now to train the model
+Clone the repository, change your present working directory to the cloned directory, Now create a now folder in this directory named `generated` to save the generated digits after every sampled interval and now train the model. Below comands accomplishes these steps.
 
 ```
 $ git clone https://github.com/manideep2510/cGAN_mnist.git
