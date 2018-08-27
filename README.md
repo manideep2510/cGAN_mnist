@@ -53,6 +53,10 @@ Here the input of generator is `m` dimensional gaussian noise and the output is 
 
 [Conditional Generative Adversarial Nets](https://arxiv.org/pdf/1411.1784.pdf) are the conditional version of generative adversarial nets, which can be constructed by simply feeding the data, y, we wish to condition on to both the generator and discriminator. 
 
+<p align="center">
+    <img src="https://github.com/manideep2510/cGAN_mnist/blob/master/writeup_images/cGAN.png" width="640"\>
+</p>
+
 ## References
 
 - [Conditional Generative Adversarial Nets](https://arxiv.org/pdf/1411.1784.pdf), Mehdi Mirza, Simon Osindero
