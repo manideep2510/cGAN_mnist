@@ -147,7 +147,7 @@ def sample_images(epoch):
             axs[i,j].set_title("Digit: %d" % sampled_labels[cnt])
             axs[i,j].axis('off')
             cnt += 1
-    fig.savefig("images_generated/%d.png" % epoch)
+    fig.savefig("generated/%d.png" % epoch)
     plt.close()
 
 epochs=20000
