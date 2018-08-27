@@ -17,13 +17,13 @@ This code is implemented using [Keras](https://keras.io/) and [Tensorflow](https
 ## Usage
 
 - Clone the repository by trying the below command in your terminal.
-[``git clone https://github.com/manideep2510/cGAN_mnist.git``]
+```git clone https://github.com/manideep2510/cGAN_mnist.git```
 - Then change you present working directory to the cloned directory with the below command.
-[``cd cGAN_mnist``]
+```cd cGAN_mnist```
 - Now create a now folder in this directory named [`generated`] to save the generated digits after every sampled interval with the following command.
-[``mkdir generated``]
+```mkdir generated```
 - To train the model, type the following command in the terminal.
-[``python cgan_mnist.py``]
+```python cgan_mnist.py```
 
 ## References
 
