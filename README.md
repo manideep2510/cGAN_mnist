@@ -44,7 +44,7 @@ The generator tries to generate outputs similar to training data so the generato
 This is the loss function of Generative Adversarial Networks,
 
 <p align="center">
-    <img src="https://github.com/manideep2510/cGAN_mnist/blob/master/writeup_images/cost.png" width="640"\>
+    <img src="https://github.com/manideep2510/cGAN_mnist/blob/master/writeup_images/cost_gan.png" width="640"\>
 </p>
 
 Here the input of generator is `m` dimensional gaussian noise and the output is a `n` dimensional vector which is close to the input probability distribution.
