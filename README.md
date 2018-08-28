@@ -5,7 +5,7 @@ Generation of MNIST like digits using [Conditional Generative Adversarial Nets](
 
 This is implementation of the paper, "[Conditional Generative Adversarial Nets](https://arxiv.org/pdf/1411.1784.pdf)" by Mehdi Mirza, Simon Osindero.
 
-This code is implemented in `python3` using [Keras](https://keras.io/) frameworks with [Tensorflow](https://www.tensorflow.org/) backend.
+This code is implemented in `python3` using [Keras](https://keras.io/) framework with [Tensorflow](https://www.tensorflow.org/) as backend.
 
 ## Files
 
