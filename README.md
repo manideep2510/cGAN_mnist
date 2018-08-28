@@ -31,7 +31,7 @@ $ python cgan_mnist.py
 
 [Generative Adversarial Networks](https://arxiv.org/abs/1406.2661) or in short GANs are a type of generative models which can generate data which resembles the training data by learning the probability distribution of the training data through two-player minimax game between two networks namely Generator and Discriminator.
 
-Generator try to learn the probability distribution of the training data and generate outputs which resemble the training data. Discriminator on the other hand discriminator takes the generated output from the generator and it predict whether the generated output is from the training data or not. 
+Generator try to learn the probability distribution of the training data and generate outputs which resemble the training data. Discriminator on the other hand, takes the generated output from the generator and it predict whether the generated output is from the training data or not. 
 
 The discriminator will try to tell that the generated outputs are not from trainng data distribution and the generator will try to fool the discriminator by generating nearly realistic outputs close to input data distribution.
 
