@@ -82,12 +82,12 @@ As you can see, the difference between the cost functions of a simple GANs and C
 The plot for losses of generator and discriminator for 5000 epochs is below.
 
 <p align="center">
-    <img src="https://github.com/manideep2510/cGAN_mnist/blob/master/plots/losses_5000epochs.png" width="640"\>
+    <img src="https://github.com/manideep2510/cGAN_mnist/blob/master/plots/losses_5000epochs.png" width="800"\>
 </p>
 
 As you can see the losses are not stable and oscillate very much. On a high level, the simple reason is "it is easy to identify a painting than to draw one".
 
-Here are the generated digits after every every 1000 epochs,
+Here are the generated digits after every every 1000 epochs. As you can see, in the begining the model gives random gaussian noise as output as the number of epochs invreases and as the model learns, it generates realistic outputs. 
 
 <p float="left">
   <img src="images_generated/0.png" width="275" />
