@@ -75,7 +75,13 @@ As you can see, the difference between the cost functions of a simple GANs and C
 
 ## Results
 
-![Epoch 0](images_generated/0.png "Epoch 0") ![Epoch 1000](images_generated/1000.png "Epoch 1000") ![Epoch 2000](images_generated/2000.png "Epoch 0") ![Epoch 3000](images_generated/3000.png "Epoch 3000")
+<p float="left">
+  <img src="images_generated/0.png" width="100" />
+  <img src="images_generated/1000.png" width="100" /> 
+  <img src="images_generated/2000.png" width="100" />
+  <img src="images_generated/3000.png" width="100" />
+  <img src="images_generated/4000.png" width="100" />
+</p>
 
 ## References
 
