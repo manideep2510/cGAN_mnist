@@ -41,7 +41,7 @@ Here the generator and discriminator are disagreeing with each other as generato
 
 The generator tries to generate outputs similar to training data so the generator tries to decrease it's cost but the discriminator will try to tell that the generated data is not from the input distribution, hence the discriminator tries to increase it's cost. This is why the generator and discriminator are said to be in a *two-player minimax game*.
 
-This is the loss function of Generative Adversarial Networks,
+The loss function of Generative Adversarial Networks looks like this,
 
 <p align="center">
     <img src="https://github.com/manideep2510/cGAN_mnist/blob/master/writeup_images/cost_gan.png" width="640"\>
@@ -54,7 +54,7 @@ Here the input of generator is `m` dimensional gaussian noise and the output is 
 [Conditional Generative Adversarial Nets](https://arxiv.org/pdf/1411.1784.pdf) are the conditional version of generative adversarial nets, which can be constructed by simply feeding the data, y, we wish to condition on to both the generator and discriminator. 
 
 <p align="center">
-    <img src="https://github.com/manideep2510/cGAN_mnist/blob/master/writeup_images/cGAN.png" width="1000"\>
+    <img src="https://github.com/manideep2510/cGAN_mnist/blob/master/writeup_images/cGAN.png" width="640"\>
 </p>
 
 ## References
