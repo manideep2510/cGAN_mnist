@@ -76,11 +76,11 @@ As you can see, the difference between the cost functions of a simple GANs and C
 ## Results
 
 <p float="left">
-  <img src="images_generated/0.png" width="200" />
-  <img src="images_generated/1000.png" width="200" /> 
-  <img src="images_generated/2000.png" width="200" />
-  <img src="images_generated/3000.png" width="200" />
-  <img src="images_generated/4000.png" width="200" />
+  <img src="images_generated/0.png" width="300" />
+  <img src="images_generated/1000.png" width="300" /> 
+  <img src="images_generated/2000.png" width="300" />
+  <img src="images_generated/3000.png" width="300" />
+  <img src="images_generated/4000.png" width="300" />
 </p>
 
 ## References
