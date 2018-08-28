@@ -49,12 +49,12 @@ This is the loss function of Generative Adversarial Networks,
 
 Here the input of generator is `m` dimensional gaussian noise and the output is a `n` dimensional vector which is close to the input probability distribution.
 
-### Now the Conditional Generative Adversarial Networks...
+### Now the Conditional Generative Adversarial Networks... 
 
 [Conditional Generative Adversarial Nets](https://arxiv.org/pdf/1411.1784.pdf) are the conditional version of generative adversarial nets, which can be constructed by simply feeding the data, y, we wish to condition on to both the generator and discriminator. 
 
 <p align="center">
-    <img src="https://github.com/manideep2510/cGAN_mnist/blob/master/writeup_images/cGAN.png" width="640"\>
+    <img src="https://github.com/manideep2510/cGAN_mnist/blob/master/writeup_images/cGAN.png" width="100"\>
 </p>
 
 ## References
