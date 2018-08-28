@@ -29,6 +29,10 @@ $ python cgan_mnist.py
 
 ### Firstly, what are Generative Adversarial Networks?
 
+<p align="center">
+    <img src="https://github.com/manideep2510/cGAN_mnist/blob/master/writeup_images/gans.jpeg" width="640"\>
+</p>
+
 [Generative Adversarial Networks](https://arxiv.org/abs/1406.2661) or in short GANs are a type of generative models which can generate data which resembles the training data by learning the probability distribution of the training data through two-player minimax game between two networks namely Generator and Discriminator.
 
 Generator try to learn the probability distribution of the training data and generate outputs which resemble the training data. Discriminator on the other hand, takes the generated output from the generator and it predict whether the generated output is from the training data or not. 
@@ -75,12 +79,35 @@ As you can see, the difference between the cost functions of a simple GANs and C
 
 ## Results
 
+The plot for losses of generator and discriminator for 5000 epochs is below.
+
+<p align="center">
+    <img src="https://github.com/manideep2510/cGAN_mnist/blob/master/plots/losses_5000epochs.png" width="640"\>
+</p>
+
+As you can see the losses are not stable and oscillate very much. On a high level, the simple reason is "it is easy to identify a painting than to draw one".
+
+Here are the generated digits after every every 1000 epochs,
+
 <p float="left">
   <img src="images_generated/0.png" width="275" />
   <img src="images_generated/1000.png" width="275" /> 
   <img src="images_generated/2000.png" width="275" />
   <img src="images_generated/3000.png" width="275" />
   <img src="images_generated/4000.png" width="275" />
+  <img src="images_generated/5000.png" width="275" />
+  <img src="images_generated/6000.png" width="275" /> 
+  <img src="images_generated/7000.png" width="275" />
+  <img src="images_generated/8000.png" width="275" />
+  <img src="images_generated/9000.png" width="275" />
+  <img src="images_generated/10000.png" width="275" />
+  <img src="images_generated/11000.png" width="275" /> 
+  <img src="images_generated/12000.png" width="275" />
+  <img src="images_generated/13000.png" width="275" />
+  <img src="images_generated/14000.png" width="275" />
+  <img src="images_generated/15000.png" width="275" />
+  <img src="images_generated/16000.png" width="275" /> 
+  <img src="images_generated/17000.png" width="275" />
 </p>
 
 ## References
