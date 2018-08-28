@@ -51,11 +51,27 @@ Here the input of generator is `m` dimensional gaussian noise and the output is 
 
 ### Now the Conditional Generative Adversarial Networks... 
 
-[Conditional Generative Adversarial Nets](https://arxiv.org/pdf/1411.1784.pdf) are the conditional version of generative adversarial nets, which can be constructed by simply feeding the data, y, we wish to condition on to both the generator and discriminator. 
+[Conditional Generative Adversarial Nets](https://arxiv.org/pdf/1411.1784.pdf) are the conditional version of generative adversarial nets, which can be constructed by simply feeding the data, `y`, we wish to condition on to both the generator and discriminator. 
+
+Generative adversarial nets can be extended to a conditional model if both the generator and discriminator are conditioned on some extra information `y`. `y` could be any kind of auxiliary information, such as class labels or data from other modalities
+
+We can perform the conditioning by feeding `y` into the both the discriminator and generator as additional input layer.
 
 <p align="center">
     <img src="https://github.com/manideep2510/cGAN_mnist/blob/master/writeup_images/cGAN.png" width="640"\>
 </p>
+
+In the generator the prior input noise `Pz(z)`, and `y` are combined in joint hidden representation, and the adversarial training framework allows for considerable flexibility in how this hidden representation is composed. 
+
+In the discriminator x and y are presented as inputs and to a discriminative function.
+
+The objective function of a two-player minimax game in the conditional case would be,
+
+<p align="center">
+    <img src="https://github.com/manideep2510/cGAN_mnist/blob/master/writeup_images/cost.png" width="640"\>
+</p>
+
+As you can see, the difference between the cost functions of a simple GANs and Conditional GANs is that in Conditional GANs `x` and `z` are conditioned on `y`.
 
 ## References
 
