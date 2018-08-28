@@ -44,7 +44,7 @@ The generator tries to generate outputs similar to training data so the generato
 The loss function of Generative Adversarial Networks looks like this,
 
 <p align="center">
-    <img src="https://github.com/manideep2510/cGAN_mnist/blob/master/writeup_images/cost_gan.png" width="640"\>(Demo)
+    <img src="https://github.com/manideep2510/cGAN_mnist/blob/master/writeup_images/cost_gan.png" width="640"\>
 </p>
 
 Here the input of generator is `m` dimensional gaussian noise and the output is a `n` dimensional vector which is close to the input probability distribution.
@@ -72,6 +72,10 @@ The objective function of a two-player minimax game in the conditional case woul
 </p>
 
 As you can see, the difference between the cost functions of a simple GANs and Conditional GANs is that in Conditional GANs `x` and `z` are conditioned on `y`.
+
+## Results
+
+![Epoch 0](images_generated/0.png "Epoch 0") ![Epoch 1000](images_generated/1000.png "Epoch 1000") ![Epoch 2000](images_generated/2000.png "Epoch 0") ![Epoch 3000](images_generated/3000.png "Epoch 3000")
 
 ## References
 
