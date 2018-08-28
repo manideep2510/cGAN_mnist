@@ -89,7 +89,7 @@ As you can see the losses are not stable and oscillate very much. On a high leve
 
 If you want to learn more about why it's difficult to train GANs, you can refer to [this informative blog](https://medium.com/@jonathan_hui/gan-why-it-is-so-hard-to-train-generative-advisory-networks-819a86b3750b).
 
-Here are the generated digits after every every 1000 epochs. As you can see, in the begining the model gives random gaussian noise as output as the number of epochs invreases and as the model learns, it generates realistic outputs. 
+Here are the generated digits after every every 1000 epochs. As you can see, in the begining the model gives random gaussian noise as output but as the number of epochs increases and as the model learns, it generates realistic outputs. 
 
 <p float="left">
   <img src="images_generated/0.png" width="275" />
